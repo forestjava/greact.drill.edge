@@ -1,0 +1,13 @@
+{
+  "name": "greact-edge",
+  "version": "1.0.0",
+  "description": "GReact Edge Node-RED system",
+  "license": "ISC",
+  "author": "cap7goo@gmail.com",
+  "scripts": {
+    "start": "node-red --userDir ./data"
+  },
+  "dependencies": {
+    "node-red": "^4.1.0"
+  }
+}

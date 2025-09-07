@@ -1,0 +1,3 @@
+[submodule "data/projects/greact-drill"]
+	path = data/projects/greact-drill
+	url = https://github.com/forestjava/greact.node-red-project.test.git
