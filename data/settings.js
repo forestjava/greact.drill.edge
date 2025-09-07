@@ -308,9 +308,9 @@ module.exports = {
      */
     runtimeState: {
         /** enable or disable flows/state endpoint. Must be set to `false` to disable */
-        enabled: false,
+        enabled: true,
         /** show or hide runtime stop/start options in the node-red editor. Must be set to `false` to hide */
-        ui: false,
+        ui: true,
     },
     telemetry: {
         /** 
@@ -453,7 +453,7 @@ module.exports = {
             /** Select the text editor component used by the editor.
              * As of Node-RED V3, this defaults to "monaco", but can be set to "ace" if desired
              */
-            lib: "monaco",
+            lib: "ace",
             options: {
                 /** The follow options only apply if the editor is set to "monaco"
                  *

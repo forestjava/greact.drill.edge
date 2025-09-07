@@ -3,3 +3,7 @@ package-lock.json
 
 # Node-RED sensitive files
 data/.config.*
+
+# Ignore all projects except tracked ones
+data/projects/*
+!data/projects/greact-drill/
